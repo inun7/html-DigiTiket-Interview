@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome-free/css/all.min.css">
+
+    <title>Total Tiket</title>
+  </head>
+  <body>
+	
+		<nav class="navbar navbar-expand-lg navbar-light bg-white mt-4">
+		  <div class="container">
+			<a href="#">
+				<img style="height: 30px;" src="img/Frame.png">
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				  <span class="navbar-toggler-icon"></span>
+				</button>
+			</a>
+			&emsp;&emsp;
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			  <form class="d-flex">
+				<div class="form-group">
+					<div class="input-group">
+						<div class="input-group-prepend">
+							<div class="input-group-text">
+								<!-- <i class="fas fa-search"></i> -->
+								<img style="height: 30px;" src="img/Search.png">
+							</div>
+						</div>
+						<input class="form-control me-2" type="search" placeholder="Temukan Event, Wahana Wisata, Virtual Tour, Lain-lain." aria-label="Search">
+					</div>
+				</div>
+			  </form>
+			<button class="login" type="submit">Login</button>
+			</div>
+		  </div>
+		</nav>
+		<nav class="navbar navbar-expand-lg navbar-light bg-white">
+		  <div class="container">
+			<div class="collapse navbar-collapse" id="navbarNav">
+			  <ul class="navbar-nav">  
+				<li class="nav-item">
+				  <a class="nav-link active" aria-current="page" href="#">
+				  <img style="height: 30px;" src="img/Attraction.png"> Attraction</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link active" href="#">
+				  <img style="height: 30px;" src="img/Event.png"> Event</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link active" href="#">
+				  <img style="height: 30px;" src="img/Virtual-Tour.png"> Virtual Tour </a>
+				</li>
+				<li class="nav-item">
+				  <div class="new">New</div>
+				</li>
+				<li class="nav-item dropdown">
+				  <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					<img style="height: 30px;" src="img/Location.png"> Semarang
+				  </a>
+				  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<li><a class="dropdown-item" href="#">Jember</a></li>
+					<li><a class="dropdown-item" href="#">Malang</a></li>
+				  </ul>
+				</li>
+			    <li class="Buat-Tiket">
+				  <a class="nav-link active" href="#" style="color: white">
+				  <img style="height: 15px;" src="img/Add.png"> Buat Tiket</a>
+			    </li>
+			  </ul>  
+			</div>
+		  </div>
+		</nav>
+		
+		<br>
+		
+		<!--content-->
+		<div class="container">
+			<div class="row g-3">
+			  <div class="col-sm-6">
+				<br>
+				<img class="Content-Large" src="img/content0.png">
+			  </div>
+			  <div class="col-sm-2">
+				<br>
+				<img class="Content-Small" src="img/content1.png">
+				<img class="Content-Small" src="img/content2.png">
+				<img class="Content-Small" src="img/content3.png">
+			  </div>
+			  <div class="col-sm">
+				<table class="table table-striped" height="10%">
+				  <thead>
+					<tr>
+					  <th scope="col" width="2%">Jam Buka</th>
+					  <th scope="col"></th>
+					  <th scope="col"></th>
+					</tr>
+				  </thead>
+				  <tbody>
+					<tr>
+					  <td scope="row">Sunday</td>
+					  <td>10:00-17:00</td>
+					  <td></td>
+					</tr>
+					<tr>
+					  <td scope="row">Monday</td>
+					  <td>10:00-17:00</td>
+					  <td><div class="Today">Today</div></td>
+					</tr>
+					<tr>
+					  <td scope="row">Tuesday</td>
+					  <td>10:00-17:00</td>
+					  <td></td>
+					</tr>
+					<tr>
+					  <td scope="row">Wednesday</td>
+					  <td>10:00-17:00</td>
+					  <td></td>
+					</tr>
+					<tr>
+					  <td scope="row">Thursday</td>
+					  <td>10:00-17:00</td>
+					  <td></td>
+					</tr>
+					<tr>
+					  <td scope="row">Friday</td>
+					  <td>10:00-17:00</td>
+					  <td></td>
+					</tr>
+					<tr>
+					  <td scope="row">Saturday</td>
+					  <td>10:00-17:00</td>
+					  <td></td>
+					</tr>
+				  </tbody>
+				  <thead>
+					<tr>
+					  <th scope="col" width="47%">Informasi Pengguna</th>
+					  <th scope="col"></th>
+					  <th scope="col"></th>
+					</tr>
+				  </thead>
+				  <tbody>
+					<tr>
+					  <td scope="row">Masa Aktif</td>
+					  <td>1 Hari</td>
+					  <td></td>
+					</tr>
+					<tr>
+					  <td scope="row">Harga</td>
+					  <td>IDR 50.000</td>
+					  <td><div class="allday">allday</div></td>
+					</tr>
+					<tr>
+					  <td scope="row">Harga</td>
+					  <td>IDR 50.000</td>
+					  <td><div class="weekend">weekend</div></td>
+					</tr>
+				  </tbody>
+				</table>
+			  </div>
+			</div>
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="alert alert-secondary" role="alert">
+			  <i class="fas fa-exclamation-circle"></i> Free Wahana: Kora-kora, Mini Train, Flying Elephant
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="row">
+			  <div class="col bg-white">
+				<label class="Virtual-Tour-Semeru">Virtual Tour Semeru</label>
+				<p class="Virtual-Tour-Semeru-desc">
+					Fasilitas yang di tawarkan di Water Splash Darmawangsa pengunjung bisa menjadi 
+					member dan keuntungannya setiap pembelian tiket masuk mendapatkan potongan harga 
+					sebesar 2000 sampai 3000 rupiah dari harga tiket masuk normal. 
+					Water Splash Darmawangsa Residence menyediakan 3 kolam renang diantaranya, 
+					1 kolam renang untuk dewasa atau remaja, dan yang 2 kolam renang khusus untuk 
+					anak-anak, tersedia pula seluncuran air yang di katagorikan untuk anak-anak 
+					karena memiliki ketinggian yang cukup rendah.
+				</p>
+				<label class="Share">Share</label>
+				<div class="content-sosmed">
+					<a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+					<a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+					<a href="#"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
+					<a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+				</div>
+				<label class="About">About</label>
+				<p class="About-desc">
+					<b>Alamat</b> <br>
+					Darmawangsa <br>
+					Jl. Darmawangsa Raya, Satriajaya, Tambun Utara, Bekasi, Jawa Barat <br>
+					17510 , Bekasi , Jawa Barat
+				</p>
+				<label class="Tiket-Water-Splash">Tiket Water Splash</label>
+				<p class="Tiket-Water-Splash-desc">
+					<b>Alamat</b> <br>
+					Darmawangsa <br>
+					Jl. Darmawangsa Raya, Satriajaya, Tambun Utara, Bekasi, Jawa Barat <br>
+					17510 , Bekasi , Jawa Barat
+				</p>
+				<label class="Peta-Lokasi">Peta Lokasi</label>
+				<img class="Peta-Lokasi-img" src="img/Peta-Lokasi.png">
+			  </div>
+			  <div class="col" style="background-color: #F6F6F6; width: 546px; height: 815px;">
+				<label class="Pilih-Tiket">Pilih Tiket</label>
+				<br> <br>
+				<button type="button" class="btn btn-outline" style="background-color: white;">Tentukan Tanggal</button>
+				<button type="button" class="btn btn-warning">Pilih Tiket</button>
+				<div class="Tiket">
+					<label class="Tiket-Dewasa">Tiket Dewasa</label>
+					<br>
+					<hr>
+					<label class="Waktu-Tiket1">09 Sep 2020, 06:00-20:30 WIB</label>
+					&emsp;
+					<label class="Waktu-Tiket2">09 Sep 2020, 06:00-20:30 WIB</label>
+					<label class="Detail-Package">Detail Package</label>
+					<br>
+					<hr>
+					<label class="IDR">IDR 40.000</label>
+					<div class="btn-toolbar mb-3" role="toolbar" aria-label="Toolbar with button groups">
+					  <div class="btn-group me-2" role="group" aria-label="First group">
+						<button type="button" class="btn btn-outline-secondary">-</button>
+						<button type="button" class="btn btn-outline-secondary">2</button>
+						<button type="button" class="btn btn-outline-secondary">+</button>
+					  </div>
+					</div>
+				</div>
+				<div class="Tiket2">
+					<label class="Tiket-Dewasa">Tiket Anak (3-7 Tahun)</label>
+					<br>
+					<hr>
+					<label class="Waktu-Tiket1">09 Sep 2020, 06:00-20:30 WIB</label>
+					&emsp;
+					<label class="Waktu-Tiket2">09 Sep 2020, 06:00-20:30 WIB</label>
+					<label class="Detail-Package">Detail Package</label>
+					<br>
+					<hr>
+					<label class="IDR">IDR 30.000</label>
+					<div class="btn-toolbar mb-3" role="toolbar" aria-label="Toolbar with button groups">
+					  <div class="btn-group me-2" role="group" aria-label="First group">
+						<button type="button" class="btn btn-outline-secondary">-</button>
+						<button type="button" class="btn btn-outline-secondary">2</button>
+						<button type="button" class="btn btn-outline-secondary">+</button>
+					  </div>
+					</div>
+				</div>
+				<div class="Tiket3">
+					<label class="Tiket-Dewasa">Tiket Bayi (0-2 Tahun)</label>
+					<br>
+					<hr>
+					<label class="Waktu-Tiket1">09 Sep 2020, 06:00-20:30 WIB</label>
+					&emsp;
+					<label class="Waktu-Tiket2">09 Sep 2020, 06:00-20:30 WIB</label>
+					<label class="Detail-Package">Detail Package</label>
+					<br>
+					<hr>
+					<label class="IDR">IDR 0.000</label>
+					<div class="btn-toolbar mb-3" role="toolbar" aria-label="Toolbar with button groups">
+					  <div class="btn-group me-2" role="group" aria-label="First group">
+						<button type="button" class="btn btn-outline-secondary">-</button>
+						<button type="button" class="btn btn-outline-secondary">0</button>
+						<button type="button" class="btn btn-outline-secondary">+</button>
+					  </div>
+					</div>
+					<div class="btn-group">
+					  <a class="nav-link disabled" style="width: 180px;">Total</a>
+					  <a class="nav-link disabled">IDR 140.000</a>
+					  <a href="#" class="btn btn-checkout" aria-current="page">Checkout</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--footer-->
+		<div class="container">
+			<form class="row gy-2 gx-3 align-items-center">
+			  <div class="col-auto">
+				<label class="Label-Footer1">Langganan Newsletter</label>
+				<p class="Label-Footer1-desc">
+					Jadi orang yang pertama tahu info & promosi <br>
+					Wisata, Event, Terbaru. Gratis.
+				</p>
+				<input class="form-control" type="text" placeholder="Masukkan Email"/>
+				<label class="Label-Footer5">Download DigiTiket Apps</label>
+				<br>
+				<a href="#"><img class="Google-Play-Store" src="img/Google-Play-Store.png"></a>
+				<br>
+				<label class="Copyright">Copyright © 2020 - DigiTiket. All rights reserved.</label>
+			  </div>
+			  <div class="col-auto">
+				<label class="Label-Footer2">Perusahaan</label>
+				<div class="Label-Footer2-detail">
+					<a href="#"> Karir </a> <br>
+					<a href="#"> Blog </a> <br>
+					<a href="#"> Jadi Partner DigiTiket </a> <br>
+					<a href="#"> DigiTiket Press Room </a> <br>
+					<a href="#"> Brand Guide Lines </a> <br>
+					<a href="#"> Alamat Kantor </a> <br>
+				</div>
+			  </div>
+			  <div class="col-auto">
+				<label class="Label-Footer3">Bantuan</label>
+				<div class="Label-Footer3-detail">
+					<a href="#"> Cara Pesan </a> <br>
+					<a href="#"> FAQ </a> <br>
+					<a href="#"> Kebijakan </a> <br>
+					<a href="#"> Kebijakan dan Privasi </a> <br>
+					<a href="#"> Syarat dan Ketentuan </a> <br>
+				</div>
+			  </div>
+			  <div class="col-auto">
+				<label class="Label-Footer4">Berkolaborasi</label>
+				<img class="img-Berkolaborasi" src="img/Berkolaborasi.png">
+				<label class="Label-Footer6">Metode Pembayaran</label>
+				<br>
+				<img class="img-Metode-Pembayaran" src="img/Metode-Pembayaran.png">
+				<div class="footer-sosmed">
+					<a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+					<a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+					<a href="#"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
+					<a href="#"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+				</div>
+			  </div>
+			</div>
+		  </form>
+		</div>
+		
+	
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

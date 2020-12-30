@@ -1,0 +1,573 @@
+body {
+	position: relative;
+	height: 2380px;
+}
+
+
+
+.input-group {
+	width: 185%;
+}
+
+.login {
+	width: 110px;
+	height: 40px;
+	position: absolute;
+	left: 81%;
+	border: none;
+	background-color: rgba(112, 20, 169, 0.15);
+	border-radius: 5px;
+	color: #CD7BFF;
+}
+
+.new {
+	width: 38px;
+	background-color: #7014A9;
+	color: white;
+	text-align: center;
+	border-radius: 5px;
+	margin: 8px 8px 8px 2px;;
+}
+
+.Buat-Tiket {
+	position: absolute;
+	left: 79%;
+	background-color: #7014A9;
+	Width: 170px;
+	Height: 45px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.Content-Large {
+	height: 470px;
+	width: 555px;
+}
+
+.Content-Small {
+	width: 174px;
+	height: 150px;
+	margin-bottom: 10px;
+}
+
+.table.table.striped {
+	height: 370px;
+}
+
+.Today {
+	background-color: #7014A9;
+	color: white;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.allday {
+	background-color: #7014A9;
+	color: white;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.weekend {
+	background-color: #EA24BE;
+	color: white;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.Virtual-Tour-Semeru {
+	position: absolute;
+	width: 292px;
+	height: 36px;
+	left: 150px;
+	top: 723px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 36px;
+	letter-spacing: 0.04em;
+	color: #000000;
+}
+
+.Virtual-Tour-Semeru-desc {
+	position: absolute;
+	width: 485px;
+	height: 239px;
+	left: 150px;
+	top: 788px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 191.5%;
+	letter-spacing: 0.04em;
+	color: #505050;
+}
+
+.Share {
+	position: absolute;
+	width: 39px;
+	height: 27px;
+	left: 462px;
+	top: 1028px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 191.5%;
+	letter-spacing: 0.04em;
+	color: #464444;
+}
+
+.content-sosmed {
+	height: 10.062501907348633px;
+	margin-left: 73%;
+	margin-top: 54%;
+}
+
+.About {
+	position: absolute;
+	width: 89px;
+	height: 36px;
+	left: 150px;
+	top: 1049px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 36px;
+	letter-spacing: 0.04em;
+	color: #000000;
+}
+
+.About-desc {
+	position: absolute;
+	width: 485px;
+	height: 117px;
+	left: 150px;
+	top: 1115px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 14px;
+	line-height: 191.5%;
+	letter-spacing: 0.04em;
+	color: #505050;
+}
+
+.Tiket-Water-Splash {
+	position: absolute;
+	width: 275px;
+	height: 36px;
+	left: 150px;
+	top: 1268px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 36px;
+	letter-spacing: 0.04em;
+	color: #000000;
+}
+
+.Tiket-Water-Splash-desc {
+	position: absolute;
+	width: 485px;
+	height: 117px;
+	left: 150px;
+	top: 1334px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 14px;
+	line-height: 191.5%;
+	letter-spacing: 0.04em;
+	color: #505050;
+}
+
+.Peta-Lokasi {
+	position: absolute;
+	width: 165px;
+	height: 36px;
+	left: 150px;
+	top: 1487px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 36px;
+	letter-spacing: 0.04em;
+	color: #000000;
+}
+
+.Peta-Lokasi-img {
+	position: absolute;
+	width: 512px;
+	height: 288px;
+	left: 150px;
+	top: 1559px;
+}
+
+.Pilih-Tiket {
+	position: absolute;
+	width: 125px;
+	height: 29px;
+	left: 690px;
+	top: 729px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+	letter-spacing: 0.04em;
+	color: #000000;
+}
+
+.btn.btn-outline {
+	position: absolute;
+	width: 270px;
+	height: 47px;
+	left: 690px;
+	top: 772px;
+	color: #CD7BFF;
+}
+
+.btn.btn-warning {
+	position: absolute;
+	width: 270px;
+	height: 47px;
+	left: 960px;
+	top: 772px;
+	background-color: #EADCF2;
+	border-color: #EADCF2;
+	color: #CD7BFF;
+}
+
+.Tiket {
+	position: absolute;
+	width: 540px;
+	height: 195px;
+	margin-left: 0px;
+	margin-top: 70px;
+
+	background: #FFFFFF;
+	border: 1px solid #F2F2F2;
+	box-sizing: border-box;
+	border-radius: 3px;
+}
+
+.Tiket-Dewasa {
+	position: absolute;
+	width: 200px;
+	height: 23px;
+	margin-left: 25px;
+	margin-top: 8px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 19px;
+	line-height: 23px;
+	letter-spacing: 0.04em;
+	color: #000000;
+}
+
+.Waktu-Tiket1 {
+	position: absolute;
+	width: 205px;
+	height: 17px;
+	margin-left: 25px;
+	margin-top: 0px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	letter-spacing: 0.04em;
+	color: #000000;
+}
+
+.Waktu-Tiket2 {
+	position: absolute;
+	width: 205px;
+	height: 17px;
+	margin-left: 275px;
+	margin-top: 0px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	letter-spacing: 0.04em;
+	color: #000000;
+}
+
+.Detail-Package {
+	color: #CD7BFF;
+	margin-top: 25px;
+	margin-left: 5px;
+}
+
+.IDR {
+	position: absolute;
+	width: 65px;
+	height: 14px;
+	margin-left: 300px;
+	margin-top: 12px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 14px;
+	letter-spacing: 0.04em;
+	color: #000000;
+}
+
+.btn-toolbar {
+	margin-left: 375px;
+	margin-top: 10px;
+}
+
+.Tiket2 {
+	position: absolute;
+	width: 540px;
+	height: 195px;
+	margin-left: 0px;
+	margin-top: 270px;
+
+	background: #FFFFFF;
+	border: 1px solid #F2F2F2;
+	box-sizing: border-box;
+	border-radius: 3px;
+}
+
+.Tiket3 {
+	position: absolute;
+	width: 540px;
+	height: 195px;
+	margin-left: 0px;
+	margin-top: 470px;
+
+	background: #FFFFFF;
+	border: 1px solid #F2F2F2;
+	box-sizing: border-box;
+	border-radius: 3px;
+}
+
+.btn-group {
+	margin-top: 15px;
+}
+
+.nav-link.disabled {
+	background-color: #E6E6E6;
+	color: black;
+	width: 236px;
+	height: 47px;
+}
+
+.btn.btn-checkout {
+	background-color: #7014A9;
+	color: white;
+	position: absolute;
+	width: 236px;
+	height: 47px;
+	left: 300px;
+	top: 0px;
+	background: #7014A9;
+	border-radius: 3px;
+}
+
+.Label-Footer1 {
+	position: absolute;
+	margin-top: 25%;
+	margin-left: 0%;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;
+	letter-spacing: 0.04em;
+	color: #000000;
+}
+
+.Label-Footer1-desc {
+	position: absolute;
+	margin-top: 30%;
+	margin-left: 0%;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 191.5%;
+	letter-spacing: 0.04em;
+	color: #000000;
+}
+
+.form-control {
+	position: absolute;
+	width: 275px;
+	height: 50px;
+	top: 84.5%;
+	bottom: 57.42%;
+	margin-left: 0%;
+
+	background: #FFFFFF;
+	border: 1px solid #E0E0E0;
+	box-sizing: border-box;
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+.Label-Footer5 {
+	position: absolute;
+	margin-top: 40%;
+	margin-left: 0%;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;
+	letter-spacing: 0.04em;
+	color: #000000;
+}
+
+.Google-Play-Store {
+	margin-top: 165%;
+	margin-left: 0%;
+}
+
+.Copyright {
+	margin-top: 30%;
+	margin-left: 0%;
+}
+
+.Label-Footer2 {
+	position: absolute;
+	text-align:left;
+	margin-top: 8.2%;
+	margin-left: 0%;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;
+	letter-spacing: 0.04em;
+	color: #000000;
+}
+
+.Label-Footer2-detail {
+	margin-top: 120%;
+}
+
+.Label-Footer2-detail a {
+	text-decoration: none;
+	color: black;
+}
+
+.Label-Footer3 {
+	position: absolute;
+	margin-top: 6.3%;
+	margin-left: 5%;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;
+	letter-spacing: 0.04em;
+	color: #000000;
+}
+
+.Label-Footer3-detail {
+	width: 200px;
+	margin-top: 75%;
+	margin-left: 35%;
+}
+
+.Label-Footer3-detail a {
+	text-decoration: none;
+	color: black;
+}
+
+.Label-Footer4 {
+	position: absolute;
+	margin-top: 23.5%;
+	margin-left: 8%;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;
+	letter-spacing: 0.04em;
+	color: #000000;
+}
+
+.img-Berkolaborasi {
+	margin-top: 150%;
+	margin-left: 40%;
+}
+
+.Label-Footer6 {
+	position: absolute;
+	margin-top: 0%;
+	margin-left: 8%;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;
+	letter-spacing: 0.04em;
+	color: #000000;
+}
+
+.img-Metode-Pembayaran {
+	margin-top: 0%;
+	margin-left: 32%;
+}
+
+.footer-sosmed {
+	width: 100px;
+	margin-top: 50%;
+	margin-left: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
